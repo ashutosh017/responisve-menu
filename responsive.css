@@ -1,0 +1,30 @@
+.items{
+    display: none;
+}
+.resp{
+    display: block;
+    text-align: center;
+    margin-top: 58px ;
+}
+ul li {
+    margin: 18px;
+}
+.navResp{
+    display: block;
+    width: 100vw;
+}
+.logo{
+    text-align: center;
+}
+.hamburger{
+    display: block;
+}
+.close, .ham{
+    width: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.close{
+    display: none;
+}

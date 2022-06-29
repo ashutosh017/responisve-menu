@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.images{
+    display: none;
+}
+.hamburger{
+    filter: invert(100%);
+    display: none;
+}
+.navbar{
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    padding: 10px 40px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar.sticky{
+    background-color: black;
+}
+ul{
+    display: flex;
+}
+ul li a{
+    color: white; 
+    padding: 4px ;  
+    margin: 10px 10px;
+    border: 2px solid transparent;
+}
+a.active, a:hover{
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.bg{
+    background: rgba(0, 0, 0, .5) url('https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274__340.jpg') center center/cover no-repeat;
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100vw;
+    /* z-index: -1; */
+    top: 0;
+}
